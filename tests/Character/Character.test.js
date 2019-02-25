@@ -77,6 +77,7 @@ describe('Режим powerMode', () => {
     character.attackEvent();
     character.attackEvent();
     character.attackEvent();
+    character.attackEvent();
 
     expect(character.health).toBe(100);
     expect(character.attack).toBe(40);

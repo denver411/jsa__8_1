@@ -49,10 +49,7 @@ class Team {
  */
 
   toArray() {
-    const setToArray = [];
-    this.characters.forEach(item => setToArray.push(item));
-
-    return setToArray;
+    return [...this.characters];
   }
 }
 
